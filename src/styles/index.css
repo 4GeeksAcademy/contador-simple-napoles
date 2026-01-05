@@ -9,3 +9,22 @@
     import 'relative/path/to/stylesheet.scss';
 
 */
+
+.counter-holder {
+    background-color: rgb(0, 0, 0);
+    width: 80%;
+    display: flex;
+    justify-content: space-around;
+    margin: 0 auto;
+    padding: 1rem;
+}
+
+.digit {
+    background-color: #eeeeee58;
+    color: white;
+    font-size: 2rem;
+    padding: 1rem;
+    border-radius: 5px;
+    width: 50px;
+    text-align: center;
+}
